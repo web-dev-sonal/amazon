@@ -23,3 +23,51 @@ body{
     grid-template-rows: 5rem 1fr 5rem;  /* 3 rows */
     height: 100%;
 }
+
+header {
+    grid-area: header; /* named this grid for using above in grid-template-areas: ;*/
+    background-color: #203040;
+}
+
+main {
+    grid-area: main;
+    padding: 1rem;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #203040;
+    color: white;
+}
+
+/* common */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff8000;
+}
+
+/*header */
+
+header a{
+    color: white;
+}
+
+a.brand {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row.center {
+    justify-content: center;
+}
