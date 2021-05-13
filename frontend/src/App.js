@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <!-- for font-awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <title>Amazona</title>
-</head>
-<body>
+
+
+function App() {
+  return (
     <div class="grid-container">
         <header class="row">
             <div>
@@ -24,7 +16,7 @@
             <div class="row center">
                 <div class="card">
                     <a href="product.html">
-                        <!--image size : 680px * 830px  -->
+                        {/* <!--image size : 680px * 830px  --> */}
                         <img src="./images/p1.jpg" alt="product" class="medium"/>
                     </a>
                     <div class="card-body">
@@ -45,7 +37,7 @@
                 </div>
                 <div class="card">
                     <a href="product.html">
-                        <!--image size : 680px * 830px  -->
+                        {/* <!--image size : 680px * 830px  --> */}
                         <img src="./images/p1.jpg" alt="product" class="medium"/>
                     </a>
                     <div class="card-body">
@@ -66,7 +58,7 @@
                 </div>
                 <div class="card">
                     <a href="product.html">
-                        <!--image size : 680px * 830px  -->
+                        {/* <!--image size : 680px * 830px  --> */}
                         <img src="./images/p1.jpg" alt="product" class="medium"/>
                     </a>
                     <div class="card-body">
@@ -87,7 +79,7 @@
                 </div>
                 <div class="card">
                     <a href="product.html">
-                        <!--image size : 680px * 830px  -->
+                        {/* <!--image size : 680px * 830px  --> */}
                         <img src="./images/p1.jpg" alt="product" class="medium"/>
                     </a>
                     <div class="card-body">
@@ -108,7 +100,7 @@
                 </div>
                 <div class="card">
                     <a href="product.html">
-                        <!--image size : 680px * 830px  -->
+                        {/* <!--image size : 680px * 830px  --> */}
                         <img src="./images/p1.jpg" alt="product" class="medium"/>
                     </a>
                     <div class="card-body">
@@ -133,5 +125,7 @@
             All right reserved
         </footer>
     </div>
-</body>
-</html>
+  );
+}
+
+export default App;
