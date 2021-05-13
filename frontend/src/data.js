@@ -25,7 +25,7 @@ const data = {
         },
         {
             _id: '3',
-            name: 'Levis Slim pant',
+            name: 'Levis Slim Shirt',
             category: 'Shirts',
             image: './images/p3.jpg',
             price: 289,
@@ -69,3 +69,5 @@ const data = {
         },
     ],
 };
+
+export default data;
