@@ -2,126 +2,42 @@
 
 function App() {
   return (
-    <div class="grid-container">
-        <header class="row">
+    <div className="grid-container">
+        <header className="row">
             <div>
-                <a href="index.html" class="brand">amazona</a>
+                <a href="index.html" className="brand">amazona</a>
             </div>
             <div>
                 <a href="cart.html">Cart</a>
                 <a href="signin.html">Sign In</a>
-            </div>
+            </div> 
         </header>
         <main>
-            <div class="row center">
-                <div class="card">
+            <div className="row center">
+                <div className="card">
                     <a href="product.html">
                         {/* <!--image size : 680px * 830px  --> */}
-                        <img src="./images/p1.jpg" alt="product" class="medium"/>
+                        <img src="./images/p1.jpg" alt="product" className="medium"/>
                     </a>
-                    <div class="card-body">
+                    <div className="card-body">
                         <a href="product.html">
                             <h2>Nike Slim Shirt</h2>
                         </a>
-                        <div class="rating">
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
+                        <div className="rating">
+                            <span><i className="fa fa-star"></i></span>
+                            <span><i className="fa fa-star"></i></span>
+                            <span><i className="fa fa-star"></i></span>
+                            <span><i className="fa fa-star"></i></span>
+                            <span><i className="fa fa-star"></i></span>
                         </div>
-                        <div class="price">
-                            $299
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <a href="product.html">
-                        {/* <!--image size : 680px * 830px  --> */}
-                        <img src="./images/p1.jpg" alt="product" class="medium"/>
-                    </a>
-                    <div class="card-body">
-                        <a href="product.html">
-                            <h2>Nike Slim Shirt</h2>
-                        </a>
-                        <div class="rating">
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                        </div>
-                        <div class="price">
-                            $299
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <a href="product.html">
-                        {/* <!--image size : 680px * 830px  --> */}
-                        <img src="./images/p1.jpg" alt="product" class="medium"/>
-                    </a>
-                    <div class="card-body">
-                        <a href="product.html">
-                            <h2>Nike Slim Shirt</h2>
-                        </a>
-                        <div class="rating">
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                        </div>
-                        <div class="price">
-                            $299
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <a href="product.html">
-                        {/* <!--image size : 680px * 830px  --> */}
-                        <img src="./images/p1.jpg" alt="product" class="medium"/>
-                    </a>
-                    <div class="card-body">
-                        <a href="product.html">
-                            <h2>Nike Slim Shirt</h2>
-                        </a>
-                        <div class="rating">
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                        </div>
-                        <div class="price">
-                            $299
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <a href="product.html">
-                        {/* <!--image size : 680px * 830px  --> */}
-                        <img src="./images/p1.jpg" alt="product" class="medium"/>
-                    </a>
-                    <div class="card-body">
-                        <a href="product.html">
-                            <h2>Nike Slim Shirt</h2>
-                        </a>
-                        <div class="rating">
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                            <span><i class="fa fa-star"></i></span>
-                        </div>
-                        <div class="price">
+                        <div className="price">
                             $299
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        <footer class="row center">
+        <footer className="row center">
             All right reserved
         </footer>
     </div>
