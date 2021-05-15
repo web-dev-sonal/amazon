@@ -5,6 +5,7 @@ function Rating(props){
     return (
         <div className="rating">
             <span>
+                {/* conditional rendering */}
                 <i className=
                 { rating >= 1?"fa fa-star":
                   rating >= 0.5?'fa fa-star-half':'fa fa-star-o' 
@@ -38,6 +39,9 @@ function Rating(props){
                   rating >= 4.5?'fa fa-star-half':'fa fa-star-o' 
                 }>
                 </i>
+            </span>
+            <span>
+                {numReviews + ' reviews'}
             </span>
         </div>
     );
